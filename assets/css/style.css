@@ -1,0 +1,24 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-section {
+    background: url('../img/hero-image.jpg') no-repeat center center/cover;
+    height: 60vh; /* 60% de la altura de la ventana */
+        /* Superposición oscura + Imagen de fondo */
+    /* La superposición ayuda a que el texto blanco sea legible */
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('../img/hero-background.jpg');
+
+    /* Propiedades para el fondo */
+    background-size: cover; /* Hace que la imagen cubra todo el espacio sin deformarse */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+    /* Altura de la sección */
+    height: 70vh; /* 70% de la altura de la ventana del navegador */
+}
+.hero-section .lead {
+    font-size: 1.4rem; /* Hacemos el subtítulo un poco más grande */
+    font-weight: 300;
+}
