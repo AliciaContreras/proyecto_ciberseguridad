@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function() { //El modal del test de seguridad
     $('#submitTestBtn').on('click', function() {
         let score = 0;
         const totalQuestions = 3;
@@ -39,4 +39,18 @@ $(document).ready(function() {
         $('#testResult').hide().html('').removeClass('alert-success alert-warning alert-danger');
     });
 
+   $('#contactForm').on('submit', function(event) { //El formulario de contacto
+                const form = $(this);
+        if (form[0].checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+        } else {
+            event.preventDefault(); 
+            alert('¡Mensaje enviado con éxito! Gracias por contactarnos.');
+            form[0].reset();
+            form.removeClass('was-validated');
+            return;
+        }
+        form.addClass('was-validated');
+    });
 });
