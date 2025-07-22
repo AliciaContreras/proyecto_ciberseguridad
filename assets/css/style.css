@@ -16,4 +16,24 @@ body {
 .hero-section .lead {
     font-size: 1.4rem;
     font-weight: 300;
+}.card {
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+#casosRealesCarousel {
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+.carousel-caption-custom {
+     color: #333; 
+    padding: 20px;
+    min-height: 250px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

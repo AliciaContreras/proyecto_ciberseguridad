@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amenazas Comunes | Guardianes Digitales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Guardianes Digitales</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="amenazas.html">Amenazas Comunes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consejos.html">Consejos de Seguridad</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="py-5">
+        <section class="container text-center mb-5">
+            <h1 class="display-4">Amenazas Cibernéticas Comunes</h1>
+            <p class="lead">Conoce los vectores de ataque más frecuentes y aprende a identificarlos.</p>
+        </section>
+        <section class="container">
+            <div class="row g-4">
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Phishing</h3>
+                            <p class="card-text">Es un tipo de fraude que busca engañar a las personas para que compartan información confidencial como contraseñas y números de tarjeta de crédito. Los atacantes se hacen pasar por una entidad de confianza a través de correos electrónicos, mensajes de texto o llamadas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Ransomware</h3>
+                            <p class="card-text">Es un tipo de malware que cifra los archivos de la víctima, impidiendo el acceso a ellos. Los atacantes luego exigen un rescate (un "ransom") a cambio de la clave para descifrar los archivos. Es una de las amenazas más lucrativas y destructivas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Malware</h3>
+                            <p class="card-text">Abreviatura de "software malicioso", es un término general que describe cualquier programa o código diseñado para dañar, interrumpir o obtener acceso no autorizado a un sistema informático. Incluye virus, gusanos, troyanos y spyware.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Ataque de Denegación de Servicio (DDoS)</h3>
+                            <p class="card-text">Un ataque DDoS (Distributed Denial-of-Service) busca hacer que un servicio en línea, como un sitio web, no esté disponible para sus usuarios legítimos. Esto se logra abrumando al objetivo con una avalancha de tráfico de internet desde múltiples fuentes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mt-5 py-5">
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <h2 class="mb-4">Ejemplos de Casos Reales</h2>
+                    <div id="casosRealesCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#casosRealesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#casosRealesCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#casosRealesCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-caption-custom d-block">
+                                    <h5>Ataque de Ransomware WannaCry (2017)</h5>
+                                    <p>WannaCry fue un ciberataque de ransomware a nivel mundial que afectó a más de 200,000 computadoras en 150 países. Cifró los datos de hospitales, empresas y agencias gubernamentales, exigiendo pagos en Bitcoin para su liberación. Explotó una vulnerabilidad en sistemas Windows obsoletos.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption-custom d-block">
+                                    <h5>Estafas de Phishing en la Copa del Mundo (2018)</h5>
+                                    <p>Durante el mundial de fútbol, circularon correos de phishing masivos que prometían boletos gratis o premios de lotería. Los estafadores crearon sitios web falsos que imitaban a los oficiales para robar información personal y financiera de aficionados al fútbol de todo el mundo.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption-custom d-block">
+                                    <h5>Ataque DDoS contra Dyn (2016)</h5>
+                                    <p>Un masivo ataque DDoS dirigido al proveedor de DNS Dyn dejó inaccesibles grandes sitios web como Twitter, Netflix, Spotify y Reddit para usuarios en Europa y América del Norte. El ataque fue realizado utilizando una botnet de dispositivos del "Internet de las Cosas" (IoT).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#casosRealesCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#casosRealesCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>© 2025 Guardianes Digitales. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
